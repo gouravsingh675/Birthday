@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="./css/footer.css" rel="stylesheet" />
+</head>
+<body>
+    <h1>
+    <div id="results"></div>
+   Cheers🌟,memories saved😊
+    <a href="/"><p>click here to go back to Home page</p></a>
+    <script>
+        const resultList=document.getElementById('results')
+        new URLSearchParams(window.location.search).forEach((value,Date)=>{
+            resultList.append(`${Date}:${value}`)
+            resultList.append(document.createElement('br'))
+        })
+    </script>
+    </h1>
+</body>
+</html>
