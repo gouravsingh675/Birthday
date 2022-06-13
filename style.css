@@ -15,7 +15,12 @@ body{
 * {
     box-sizing: border-box
 } 
-
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+  }
 /* clear fix */
 /*
 https://css-tricks.com/snippets/css/clear-fix
