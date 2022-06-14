@@ -144,10 +144,10 @@ p {
 	font-size: 22px;
 }
 .special {
-	font-size: 25px;
+	font-size: 31px;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	font-style: italic;
-	color:rgb(170, 255, 0);
+	color:white;
 	margin-left: 15px;
 }
 .special2 {
